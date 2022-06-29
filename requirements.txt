@@ -1,3 +1,15 @@
+cfgv==3.3.1
+-e git+ssh://git@github.com/onidemon37/dbexport.git@ffca24df115011ac4886b89cc62f13872fcb116d#egg=dbexport
+distlib==0.3.4
+filelock==3.7.1
 greenlet==1.1.2
+identify==2.5.1
+nodeenv==1.7.0
+platformdirs==2.5.2
+pre-commit==2.19.0
 psycopg2-binary==2.9.3
+PyYAML==6.0
+six==1.16.0
 SQLAlchemy==1.4.39
+toml==0.10.2
+virtualenv==20.15.0
