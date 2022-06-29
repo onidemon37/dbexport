@@ -39,4 +39,4 @@ for product, review_count, avg_rating in session.query(
     )
 
 with open("product_ratings.json", "w") as f:
-    json.dump(products, f)
+    json.dump(products, f, sort_keys=True, indent=4)
